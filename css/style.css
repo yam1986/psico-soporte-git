@@ -1,0 +1,254 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*header*/
+
+/*Nav trabajado con Bootstrap*/
+
+
+.colorNav{
+   background-color: rgb(226, 210, 240);
+}
+
+.logo{
+    width: 85px;
+   
+}
+
+/*main*/
+
+
+body{
+    background-color: white
+
+}
+
+.fondo{
+    display: flex;
+    height: 450px;
+    background-image: url(../imagenes/manoscerebro.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+
+h1{
+    
+    color: rgb(39, 17, 27);
+    font-style: italic;
+    font-family: cursive;
+    text-align:center;
+
+}  
+
+h2{
+    color:rgb(39, 17, 27) ;
+    margin: 30px;
+    font-style: italic;
+    font-family:cursive ;
+}
+
+
+
+h3{
+    margin: 30px;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(168, 18, 88);
+}
+
+.soporte{
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+ 
+   
+    height:40%;
+    width: 85%;
+    margin-left: 85px;
+    font-size: xx-large;
+    text-transform: uppercase;
+
+}
+
+.cerebro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+   
+.parrafo-presentacion{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    margin: 35px;
+    font-weight: bold;
+}
+
+.videotecnicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ansiedad{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 50px;
+    
+   
+}
+
+.imagenestres{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+
+}
+
+
+
+
+/*nosotras*/
+
+/*trabajodo con bootstrap*/
+
+.titulos-pages{
+    margin-top: 10px;
+}
+
+
+
+/*atencion clinica*/
+
+.formulario{
+    margin-left: 10px;
+    
+}
+
+
+/*cursos*/
+
+.cursos{
+    color: rgb(86, 77, 80);
+    font-size: x-large;
+    font-style: italic;
+    margin: 50px;
+    
+}
+
+.grid-container img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(3,100px);
+    column-gap: 10px;
+    row-gap: 10px
+
+    
+}
+
+.grid-container .grid-item{
+    
+    padding: 5px;
+
+}
+
+
+.tres{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-left: 5px;
+}
+
+.dos{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.uno{
+    grid-column:3/4;
+    grid-row: 1/3;
+}
+
+
+.consultasc a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(95, 23, 57);
+    font-size:x-large;
+    font-style: italic;
+    
+}
+
+/*contacto*/
+
+.contactos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.contactos ul {
+   list-style: none;
+   
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+
+/*footer*/
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 100px 50px 20px 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
