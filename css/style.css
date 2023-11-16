@@ -12,7 +12,7 @@
 
 
 .colorNav{
-   background-color: rgb(190, 170, 209);
+   background-color: rgb(99, 133, 147);
 }
 
 .logo{
@@ -50,7 +50,10 @@ h1{
 }  
 
 h2{
-    color:rgb(39, 17, 27) ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color:rgb(56, 26, 40) ;
     margin: 30px;
     font-style: italic;
     font-family:cursive ;
