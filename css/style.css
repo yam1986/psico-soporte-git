@@ -27,6 +27,8 @@ body{
 
 }
 
+/*index*/
+
 .fondo{
     display: flex;
     height: 450px;
@@ -82,7 +84,6 @@ h3{
   
 }
 
-   
 .parrafo-presentacion{
     display: flex;
     justify-content: center;
@@ -107,15 +108,26 @@ h3{
     font-weight: bold;
     margin: 50px;
     
-   
 }
 
-.imagenestres{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
+.grid-ansiedad{
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat (2,100px);
+    column-gap: 10px;
+    row-gap: 10px
+    
+}
 
+.unoestres{
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
 
+.unoansiedad{
+    grid-column:2/2;
+    grid-row: 1/2;
 }
 
 
@@ -126,7 +138,6 @@ h3{
 .titulos-pages{
     margin-top: 10px;
 }
-
 
 
 /*atencion clinica*/
@@ -227,7 +238,7 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    margin: 100px 50px 20px 50px;
+    margin: 200px 50px 20px 50px;
 
 
 }
