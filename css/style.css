@@ -12,7 +12,7 @@
 
 
 .colorNav{
-   background-color: rgb(99, 133, 147);
+   background-color: rgb(136, 173, 187);
 }
 
 .logo{
@@ -146,8 +146,18 @@ h3{
 /*atencion clinica*/
 
 .formulario{
-    margin-left: 10px;
+    margin-left: 20px;
     
+}
+
+.separacionuno{
+    margin-top: 10px;
+
+}
+
+.separaciondos{
+    margin-top: 10px;
+
 }
 
 
