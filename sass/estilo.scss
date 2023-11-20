@@ -5,7 +5,11 @@
     box-sizing: border-box;
 }
 
+//variable para los titulos//
 
+$verde: rgb(74, 97, 105);
+
+//header//
 
 header{
     
@@ -47,7 +51,7 @@ header{
 h1{
     display: flex;
     justify-content: center;
-    color: rgb(39, 17, 27);
+    color: $verde;
     font-style: italic;
     font-family: cursive;
     text-align:center;
@@ -58,19 +62,12 @@ h2{
     display: flex;
     text-align: center;
     justify-content: center;
-    color:rgb(56, 26, 40) ;
+    color: $verde;
     margin: 30px;
     font-style: italic;
     font-family:cursive ;
 }
 
-
-h3{
-    margin: 30px;
-    text-align: center;
-    font-size: x-large;
-    color: rgb(168, 18, 88);
-}
 
 .cerebro{
     display: flex;
@@ -84,6 +81,7 @@ h3{
     justify-content: center;
     text-align: center;
     font-size: large;
+    color: $verde;
     margin: 35px;
     font-weight: bold;
 }
@@ -100,6 +98,7 @@ h3{
     text-align: center;
     font-size: large;
     font-weight: bold;
+    color: $verde;
     margin: 50px;
     
 }
@@ -122,3 +121,15 @@ h3{
         grid-row: 1/2;
     }
 }
+
+//footer//
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 200px 50px 20px 50px;
+
+
+}
+

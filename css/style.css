@@ -1,15 +1,6 @@
 
 
 
-/*nosotras*/
-
-/*trabajodo con bootstrap*/
-
-.titulos-pages{
-    margin-top: 10px;
-}
-
-
 /*atencion clinica*/
 
 .formulario{
@@ -112,16 +103,9 @@
 }
 
 
-/*footer*/
-
-.redes{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    margin: 200px 50px 20px 50px;
 
 
-}
+
 
 
 
