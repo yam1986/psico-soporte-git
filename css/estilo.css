@@ -18,7 +18,6 @@ header .logo {
   background-position: center;
   background-size: cover;
 }
-
 .fondo .soporte {
   display: flex;
   justify-content: left;
@@ -103,6 +102,77 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   margin: 200px 50px 20px 50px;
+}
+
+.formulario {
+  margin-left: 20px;
+}
+.formulario .separacionuno {
+  margin-top: 10px;
+}
+.formulario .separaciondos {
+  margin-top: 10px;
+}
+
+.contactos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.contactos ul {
+  list-style: none;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.cursos {
+  color: rgb(86, 77, 80);
+  font-size: x-large;
+  font-style: italic;
+  margin: 50px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat 3, 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.grid-container .grid-item {
+  padding: 5px;
+}
+.grid-container .grid-item img {
+  height: 100%;
+  width: 100%;
+}
+.grid-container .tres {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  margin-left: 5px;
+}
+.grid-container .dos {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+.grid-container .uno {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.consultasc a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(95, 23, 57);
+  font-size: x-large;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=estilo.css.map */
