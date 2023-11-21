@@ -21,7 +21,7 @@ header{
             width: 85px;
         } 
 
-    }
+}
  
 
 
@@ -49,6 +49,7 @@ header{
     
 }
 
+
 h1{
     display: flex;
     justify-content: center;
@@ -66,7 +67,8 @@ h2{
     color: $verde;
     margin: 30px;
     font-style: italic;
-    font-family:cursive ;
+    font-family:cursive;
+
 }
 
 
@@ -74,7 +76,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    
 }
 
 .parrafo-presentacion{
