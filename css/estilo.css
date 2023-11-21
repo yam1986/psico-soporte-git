@@ -48,6 +48,10 @@ h2 {
   font-family: cursive;
 }
 
+h2:hover {
+  color: blueviolet;
+}
+
 .cerebro {
   display: flex;
   justify-content: center;
