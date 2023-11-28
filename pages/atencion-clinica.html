@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soporte-psico</title>
+    
     <!-- link animate --> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- link bootstrap --> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- link css -->
+    <!-- link css --> 
     <link rel="stylesheet" href="../css/style.css">
+    
     <!-- link sass -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -28,10 +30,10 @@
                     <a class="nav-link" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./atencion-clinica.html">Atencion Clinica</a>
+                    <a class="nav-link" href="./nosotras.html">Nosotras</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./nosotras.html">Nosotras</a>
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./cursos.html">Cursos</a>
@@ -43,36 +45,61 @@
 
     </header>
     <main>
-        <!-- Titulo principal -->
+        <!-- Titulo principal y secundario -->
 
-        <h1>Donde encontrarnos</h1>
-        
+        <h1>Atencion Clinica</h1>
+
+        <h2>Dejanos tus datos y te contactaremos a la brevedad</h2>
+
+        <!-- Formulario -->
+
         
 
-        <section class="contactos">
-            <ul>
-                <li>soportepsico@hotmail.com</li>
-                <li>WhatsApp: +54 1169693800</li>
-                <li>Av. Hipólito Yrigoyen 3242, C1207 ABR, Buenos Aires, AR</li>
-            
-            </ul>
+        <section class="formulario">
+            <form action="form.php" method="post">
+                <div>
+                    <label for="">Nombre y apellidos</label> 
+                    <input type="text" name="Nombre y apellidos" id="Nombre" placeholder="iara Ishikawa">
+                </div>
+                
+    
+                <div class="separacionuno">
+                    <label for="">Correo electrónico</label>
+                    <input type="text" name="Correo electrónico" id="email" placeholder="seda@gmail.com">
+                </div>
+                
+    
+                <div class="separaciondos">
+                    <label for="">Asunto</label>
+                    <input type="text" name="Asunto" id="Asunto">
+                </div>
+                
+    
+                <div>
+                    <p>Mensaje</p>
+                    <textarea name="Mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+                </div>
+    
+                <div>
+                    <p>Acepto los terminos y condiciones</p>
+                    <input type="checkbox" name="" id="">
+                    <input type="submit" value="Enviar">
+                </div>
+                
+    
+            </form>
+
+
+
 
         </section>
-
-            <div class="mapa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.6768561833132!2d-58.41497712524622!3d-34.612331957951454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8dd28cf657%3A0xc4f373c874bb9316!2sFacultad%20de%20Psicolog%C3%ADa%2C%20Universidad%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1696792023795!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            </div>
-
-           
-       
-    </main>    
-
+    </main>   
 
 
 
 <footer>
     <!-- Final, enlace a redes sociales -->
+    
      
     <div class="redes">
         <a href="https://instagram.com/soportepsico?igshid=NjIwNzIyMDk2Mg==">
@@ -88,7 +115,6 @@
         </a>
 
     </div>
-    
  
 
 </footer>
